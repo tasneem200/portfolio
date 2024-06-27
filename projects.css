@@ -1,0 +1,53 @@
+
+body { 
+    background-color: #0C020B;
+}
+
+h3 {
+    color: #E4F5FF;
+    position: absolute;
+    top: 80px; 
+    left: 45px;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+#neural {
+    color: #E4F5FF;
+    position: absolute;
+    top: 165px; 
+    left: 45px;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+
+#matrix {
+    position: absolute;
+    top: 225px; 
+    left: 45px;
+    display: block;
+    height:200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#bus {
+    color: #E4F5FF;
+    position: absolute;
+    top: 165px; 
+    left: 350px;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+#roo {
+    position: absolute;
+    top: 225px; 
+    left: 350px;
+    display: block;
+    height:200px;
+    width: 250px;
+    border-radi
