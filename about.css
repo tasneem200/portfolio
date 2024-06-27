@@ -2,3 +2,90 @@
 body { 
     background-color: #0C020B;
 }
+
+#me {
+    margin-top: 250px;
+    margin-left: 50px;
+    display: block;
+}
+
+h3 {
+    color: #E4F5FF;
+    margin-top: -80px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 55px;
+    white-space: nowrap;
+}
+
+h4 {
+    color: #E4F5FF;
+    margin-top: 200px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+h5 {
+    color: #E4F5FF;
+    margin-top: 225px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+#firstpara{
+    color: #E4F5FF;
+    margin-top: -180px;
+    font-size: 16px;
+    margin-left: 500px;
+    width: 300px;
+    line-height: 1.75;
+}
+
+#secondpara{
+    color: #E4F5FF;
+    margin-top: -295px;
+    font-size: 16px;
+    margin-left: 900px;
+    width: 300px;
+    line-height: 1.75;
+}
+
+h6 {
+    color: #E4F5FF;
+    margin-top: 0px;
+    margin-left: 900px;
+    position: absolute;
+    font-size: 30px;
+    white-space: nowrap;
+
+}
+
+#phone{
+    color: #E4F5FF;
+    margin-top: 60px;
+    font-size: 16px;
+    margin-left: 900px;
+}
+
+#email{
+    color: #E4F5FF;
+    margin-top: -10px;
+    font-size: 16px;
+    margin-left: 900px;
+}
+
+/* fix the positioning later */
+#linkedin{
+    color: #E4F5FF;
+    margin-top: -px;
+    font-size: 16px;
+    margin-left: 900px;
+    text-decoration: none;
+    position: fixed;
+}

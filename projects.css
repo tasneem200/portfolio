@@ -50,4 +50,35 @@ h3 {
     display: block;
     height:200px;
     width: 250px;
-    border-radi
+    border-radius: 10px;
+}
+
+#pos {
+    color: #E4F5FF;
+    position: absolute;
+    top: 165px; 
+    left: 350px;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+#poster {
+    position: absolute;
+    top: 225px; 
+    left: 650px;
+    display: block;
+    height:200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#portfolio {
+    position: absolute;
+    top: 225px; 
+    left: 950px;
+    display: block;
+    height:200px;
+    width: 250px;
+    border-radius: 10px;
+}
