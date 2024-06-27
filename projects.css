@@ -19,7 +19,7 @@ h3 {
     left: 45px;
     font-size: 20px;
     white-space: nowrap;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 
@@ -33,6 +33,26 @@ h3 {
     border-radius: 10px;
 }
 
+#mach {
+    color: #E4F5FF;
+    position: absolute;
+    top: 415px; 
+    left: 45px;
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+#des1 {
+    color: #E4F5FF;
+    position: absolute;
+    top: 450px; 
+    left: 45px;
+    font-size: 14px;
+    width: 250px;
+    line-height: 1.75;
+}
+
 #bus {
     color: #E4F5FF;
     position: absolute;
@@ -40,7 +60,27 @@ h3 {
     left: 350px;
     font-size: 20px;
     white-space: nowrap;
-    font-weight: normal;
+    font-weight: 600;
+}
+
+#swe {
+    color: #E4F5FF;
+    position: absolute;
+    top: 415px; 
+    left: 350px;
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+#des2 {
+    color: #E4F5FF;
+    position: absolute;
+    top: 450px; 
+    left: 350px;
+    font-size: 14px;
+    width: 250px;
+    line-height: 1.75;
 }
 
 #roo {
@@ -57,10 +97,10 @@ h3 {
     color: #E4F5FF;
     position: absolute;
     top: 165px; 
-    left: 350px;
+    left: 650px;
     font-size: 20px;
     white-space: nowrap;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 #poster {
@@ -73,6 +113,36 @@ h3 {
     border-radius: 10px;
 }
 
+#deep {
+    color: #E4F5FF;
+    position: absolute;
+    top: 415px; 
+    left: 650px;
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+#des3 {
+    color: #E4F5FF;
+    position: absolute;
+    top: 450px; 
+    left: 650px;
+    font-size: 14px;
+    width: 250px;
+    line-height: 1.75;
+}
+
+#port {
+    color: #E4F5FF;
+    position: absolute;
+    top: 165px; 
+    left: 950px;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
 #portfolio {
     position: absolute;
     top: 225px; 
@@ -81,4 +151,24 @@ h3 {
     height:200px;
     width: 250px;
     border-radius: 10px;
+}
+
+#web {
+    color: #E4F5FF;
+    position: absolute;
+    top: 415px; 
+    left: 950px;
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+#des4 {
+    color: #E4F5FF;
+    position: absolute;
+    top: 450px; 
+    left: 950px;
+    font-size: 14px;
+    width: 250px;
+    line-height: 1.75;
 }
