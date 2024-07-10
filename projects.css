@@ -3,11 +3,11 @@ body {
     background-color: #0C020B;
 }
 
-h3 {
+h1 {
     color: #E4F5FF;
     position: absolute;
-    top: 80px; 
-    left: 45px;
+    top: 160px; 
+    left: 115px;
     font-size: 40px;
     white-space: nowrap;
 }
@@ -15,8 +15,8 @@ h3 {
 #neural {
     color: #E4F5FF;
     position: absolute;
-    top: 165px; 
-    left: 45px;
+    top: 205px; 
+    left: 175px;
     font-size: 20px;
     white-space: nowrap;
     font-weight: 600;
@@ -36,8 +36,8 @@ h3 {
 #mach {
     color: #E4F5FF;
     position: absolute;
-    top: 415px; 
-    left: 45px;
+    top: 445px; 
+    left: 115px;
     font-size: 18px;
     white-space: nowrap;
     font-weight: 600;
@@ -56,8 +56,8 @@ h3 {
 #bus {
     color: #E4F5FF;
     position: absolute;
-    top: 165px; 
-    left: 350px;
+    top: 205px; 
+    left: 450px;
     font-size: 20px;
     white-space: nowrap;
     font-weight: 600;
@@ -66,8 +66,8 @@ h3 {
 #swe {
     color: #E4F5FF;
     position: absolute;
-    top: 415px; 
-    left: 350px;
+    top: 445px; 
+    left: 435px;
     font-size: 18px;
     white-space: nowrap;
     font-weight: 600;
@@ -96,8 +96,8 @@ h3 {
 #pos {
     color: #E4F5FF;
     position: absolute;
-    top: 165px; 
-    left: 650px;
+    top: 205px; 
+    left: 760px;
     font-size: 20px;
     white-space: nowrap;
     font-weight: 600;
@@ -116,8 +116,8 @@ h3 {
 #deep {
     color: #E4F5FF;
     position: absolute;
-    top: 415px; 
-    left: 650px;
+    top: 445px; 
+    left: 705px;
     font-size: 18px;
     white-space: nowrap;
     font-weight: 600;
@@ -136,8 +136,8 @@ h3 {
 #port {
     color: #E4F5FF;
     position: absolute;
-    top: 165px; 
-    left: 950px;
+    top: 205px; 
+    left: 1005px;
     font-size: 20px;
     white-space: nowrap;
     font-weight: 600;
@@ -156,8 +156,8 @@ h3 {
 #web {
     color: #E4F5FF;
     position: absolute;
-    top: 415px; 
-    left: 950px;
+    top: 445px; 
+    left: 1030px;
     font-size: 18px;
     white-space: nowrap;
     font-weight: 600;
@@ -171,4 +171,186 @@ h3 {
     font-size: 14px;
     width: 250px;
     line-height: 1.75;
+}
+
+/* mobile devices view */
+@media (min-width: 200px) and (max-width: 750px){
+
+    h1 {
+        color: #E4F5FF;
+        position: absolute;
+        top: 370px;
+        left: 50px;
+        font-size: 22px;
+        white-space: nowrap;
+    }
+
+    #neural {
+        color: #E4F5FF;
+        position: absolute;
+        top: 400px; 
+        left: 90px;
+        font-size: 12px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+
+    #matrix {
+        position: absolute;
+        top: 410px; 
+        left: 10px;
+        display: block;
+        height:100px;
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    #mach {
+        color: #E4F5FF;
+        position: absolute;
+        top: 525px; 
+        left: 60px;
+        font-size: 12px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+    
+    #des1 {
+        color: #E4F5FF;
+        position: absolute;
+        top: 530px; 
+        left: 15px;
+        font-size: 11px;
+        width: 150px;
+        line-height: 1.2;
+    }
+
+    #bus {
+        color: #E4F5FF;
+        position: absolute;
+        top: 400px; 
+        left: 280px;
+        font-size: 12px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+
+    #roo {
+        position: absolute;
+        top: 410px; 
+        left: 220px;
+        display: block;
+        height:100px;
+        width: 150px;
+        border-radius: 10px;
+    }
+    
+    #swe {
+        color: #E4F5FF;
+        position: absolute;
+        top: 525px; 
+        left: 275px;
+        font-size: 12px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+    
+    #des2 {
+        color: #E4F5FF;
+        position: absolute;
+        top: 530px; 
+        left: 220px;
+        font-size: 11px;
+        width: 150px;
+        line-height: 1.2;
+    }
+
+    #pos {
+        color: #E4F5FF;
+        position: absolute;
+        top: 400px;
+        left: 480px;
+        font-size: 12px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+
+    #poster {
+        position: absolute;
+        top: 410px; 
+        left: 410px;
+        display: block;
+        height:100px;
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    #deep {
+        color: #E4F5FF;
+        position: absolute;
+        top: 525px;
+        left: 450px;
+        font-size: 12px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+
+    #des3 {
+        color: #E4F5FF;
+        position: absolute;
+        top: 530px; 
+        left: 410px;
+        font-size: 11px;
+        width: 150px;
+        line-height: 1.2;
+    }
+
+    #port {
+        color: #E4F5FF;
+        position: absolute;
+        top: 400px; 
+        left: 645px;
+        font-size: 12px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+    
+    #portfolio {
+        position: absolute;
+        top: 410px; 
+        left: 610px;
+        display: block;
+        height:100px;
+        width: 150px;
+        border-radius: 10px;
+    }
+    
+    #web {
+        color: #E4F5FF;
+        position: absolute;
+        top: 525px; 
+        left: 665px;
+        font-size: 12px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+    
+    #des4 {
+        color: #E4F5FF;
+        position: absolute;
+        top: 530px; 
+        left: 610px;
+        font-size: 11px;
+        width: 150px;
+        line-height: 1.2;
+    }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 5s linear;
 }

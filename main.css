@@ -5,40 +5,49 @@ body {
 }
 
 nav{
-    margin-top : 0px;
     background-color: #E4F5FF;
-    display: flex;
     position: absolute;
-    left:0;
-    right:0;
     top:0;
-    height: 78px;
+    left: 0;
+    right: 0;   
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+
 }
 
 #logo {
-	margin-top: 0px;
-}
+    display: block;
+    max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+    top:0; 
+    left:0;
+    position: absolute;
+  }
 
 .logot {
     font-size: 40px;
-    margin-top: 30px;
-    margin-left: -40px;
-
+    position: absolute;
+    top: 30px;
+    left: 40px;
 }
 
 nav a {
     color: #0C020B;
     text-decoration: none;
+    top: 0px;
     font-size: 17px;
-    padding: 0.25rem 0.5rem;
     justify-content: center;
-    
-    
+    display: inline-block;
+
 }
+
 .button {
     background-color: #0C020B;
     padding: 10px ;
-    color: white;
+    color: #E4F5FF;
     text-align: center;
     margin: 15px;
     border-radius: 10px;
@@ -46,13 +55,9 @@ nav a {
 
 }
 
+
 .start{
     margin-left: 150px;
-}
-
-.logo{
-    left:0;
-    right:0;
 }
 
 
@@ -61,14 +66,19 @@ nav a:hover {
   color: black;
 }
 
+nav a:focus {
+    background-color: #ddd;
+    color: black;
+}
+
 h1 {
     color: #E4F5FF;
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 45px;
     white-space: nowrap;
 }
 
@@ -77,10 +87,342 @@ h2 {
     color: #E4F5FF;
     margin: 0;
     position: absolute;
-    top: 52%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 15px;
     white-space: nowrap;
     font-weight: normal;
+}
+
+@media (min-width: 200px) and (max-width: 750px){  
+    nav{
+        background-color: #E4F5FF;
+        position: absolute;
+        left:0;
+        right:0;
+        top:0;
+        width: 100%;
+        max-height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+
+    .logot {
+        font-size: 40px;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+
+    h1 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 400px;
+        left: center;
+        font-size: 28px;
+        white-space: nowrap;
+    }
+    
+    
+    h2 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 440px;
+        left: center;
+        font-size: 13px;
+        white-space: nowrap;
+        font-weight: normal;
+        margin-bottom: 100px;
+    }
+    
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 5s linear;
+}
+
+/* CHANGE STYLE OF ELEMENTS THAT ARE SELECTED WITH TAB */
+
+
+/*
+@media (min-width:2100px){  
+    nav{
+        background-color: pink;
+        position: fixed;
+        left:0;
+        right:0;
+        top:0;
+        max-height: 500px;
+        justify-content: center;
+        display: inline-block;
+    }
+
+    nav a {
+        color: #0C020B;
+        text-decoration: none;
+        top: 0px;
+        font-size: 50px;
+        justify-content: center;
+        margin-left: 700px;
+
+    }
+
+    .button {
+        background-color: #0C020B;
+        padding:55px ;
+        color: white;
+        text-align: center;
+        margin: 25px;
+        border-radius: 10%;
+        white-space: nowrap;
+    }
+
+
+    #logo{
+        height: 200px;
+        width: 200px;
+        top:0;
+        left: 0;
+        position: fixed;
+    }
+
+    .logot {
+        font-size: 90px;
+        position: fixed;
+        top: 100px;
+        left: 110px;
+    }
+
+    h1 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 150px;
+        white-space: nowrap;
+    }
+    
+    
+    h2 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        white-space: nowrap;
+        font-weight: normal;
+    }
+    
+}
+
+
+
+@media (min-width: 620px) and (max-width: 2100px){  
+    nav{
+        background-color: #E4F5FF;
+        
+        position: fixed;
+        left:0;
+        right:0;
+        top:0;
+        max-height: 300px;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+
+    .logot {
+        font-size: 40px;
+        position: fixed;
+        top: 30px;
+        left: 40px;
+    }
+
+    h1 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        white-space: nowrap;
+    }
+    
+    
+    h2 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 22px;
+        white-space: nowrap;
+        font-weight: normal;
+    }
+    
+}
+
+
+@media (min-width: 340px) and (max-width: 620px) { 
+
+    nav{
+        background-color: #E4F5FF;
+        position: fixed;
+        left:0;
+        right:0;
+        top:0;
+        max-height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        overflow: wrap;
+    }
+
+    nav a {
+        color: #0C020B;
+        text-decoration: none;
+        top: 0px;
+        font-size: 8px;
+        justify-content: center;
+        display: inline-block;
+    }
+
+    .button {
+        background-color: #0C020B;
+        padding:3px ;
+        color: white;
+        text-align: center;
+        margin: 2px;
+        border-radius: 0.2x;
+        white-space: nowrap;
+    }
+
+    #logo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+    }
+    .logot {
+        font-size: 12px;
+        position: fixed;
+        top: 8px;
+        left: 12px;
+    }
+    h1 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    
+    
+    h2 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 8px;
+        white-space: nowrap;
+        font-weight: normal;
+    }
+
+}
+
+
+
+@media (min-width: 50px) and (max-width: 340px) { 
+
+    nav{
+        background-color: #E4F5FF;
+        position: fixed;
+        left:0;
+        right:0;
+        top:0;
+        max-height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        overflow: wrap;
+    }
+
+    nav a {
+        color: #0C020B;
+        text-decoration: none;
+        top: 0px;
+        font-size: 6px;
+        justify-content: center;
+        display: inline-block;
+    }
+
+    .button {
+        background-color: #0C020B;
+        padding:2px ;
+        color: white;
+        text-align: center;
+        margin: 1px;
+        border-radius: 0.05x;
+        white-space: nowrap;
+    }
+
+    #logo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+    }
+    .logot {
+        font-size: 12px;
+        position: fixed;
+        top: 8px;
+        left: 12px;
+    }
+    h1 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    
+    
+    h2 {
+        color: #E4F5FF;
+        margin: 0;
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 6px;
+        white-space: nowrap;
+        font-weight: normal;
+    }
+
 }

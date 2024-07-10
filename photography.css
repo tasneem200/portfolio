@@ -2,11 +2,11 @@ body {
     background-color: #0C020B;
 }
 
-h3 {
+h1 {
     color: #E4F5FF;
     position: absolute;
-    top: 80px; 
-    left: 45px;
+    top: 130px; 
+    left: 155px;
     font-size: 40px;
     white-space: nowrap;
 }
@@ -139,4 +139,156 @@ h3 {
     height:200px;
     width: 270px;
     border-radius: 10px;
+}
+
+@media (min-width: 200px) and (max-width: 750px){
+
+    h1 {
+        color: #E4F5FF;
+        position: absolute;
+        top: 360px; 
+        left: 90px;
+        font-size: 30px;
+        white-space: nowrap;
+    }
+
+    #des1 {
+        color: #E4F5FF;
+        position: absolute;
+        top: 380px; 
+        left: 10px;
+        font-size: 15px;
+        white-space: nowrap;
+        font-weight: none;
+    }
+
+    #turk {
+        color: #E4F5FF;
+        position: absolute;
+        top: 410px; 
+        left: 10px;
+        font-size: 18px;
+        white-space: nowrap;
+        font-weight: none;
+    }
+
+    #sul {
+        position: absolute;
+        top: 450px; 
+        left: 10px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    #mus {
+        position: absolute;
+        top: 450px; 
+        left: 200px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    #ceil {
+        position: absolute;
+        top: 450px; 
+        left: 400px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    #hagia {
+        position: absolute;
+        top: 450px; 
+        left: 600px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    #mus2 {
+        position: absolute;
+        top: 570px; 
+        left: 10px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    #mas2 {
+        position: absolute;
+        top: 570px; 
+        left: 200px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    #mas3 {
+        position: absolute;
+        top: 570px; 
+        left: 400px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+    
+    #mas4 {
+        position: absolute;
+        top: 570px; 
+        left: 600px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    #house {
+        position: absolute;
+        top: 690px; 
+        left: 10px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+    
+    #boat {
+        position: absolute;
+        top: 690px; 
+        left: 200px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+    
+    #alley {
+        position: absolute;
+        top: 690px; 
+        left: 400px;
+        display: block;
+        height:100px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 5s linear;
 }
