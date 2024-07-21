@@ -52,3 +52,18 @@ logot.addEventListener("click", () => {
         logo.classList.add("spin");
     }
 });
+
+anime({
+        targets: '.myName',
+        left: '50%',
+        translateX: '-50%',
+        duration: 500,
+        easing: 'easeInOutQuad'
+});
+
+anime({
+        targets: '.role',
+        bottom: '35%',
+        duration: 500,
+        easing: 'easeInOutQuad'
+});
