@@ -76,8 +76,7 @@ h1 {
     margin: 0;
     position: absolute;
     top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 0%;
     font-size: 45px;
     white-space: nowrap;
 }
@@ -87,7 +86,7 @@ h2 {
     color: #E4F5FF;
     margin: 0;
     position: absolute;
-    top: 62%;
+    bottom: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15px;
