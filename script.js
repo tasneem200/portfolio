@@ -53,17 +53,36 @@ logot.addEventListener("click", () => {
     }
 });
 
-anime({
-        targets: '.myName',
-        left: '50%',
-        translateX: '-50%',
-        duration: 500,
-        easing: 'easeInOutQuad'
-});
 
-anime({
-        targets: '.role',
-        bottom: '35%',
-        duration: 500,
-        easing: 'easeInOutQuad'
-});
+// typing effect for roles 
+
+var i = 0;
+var txt = 'Software Engineer, Photographer, etc.'; /* The text */
+var speed = 50; 
+
+function typeWriterRoles() {
+  if (i < txt.length) {
+    document.getElementById("roles").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriterRoles, speed);
+  }
+}
+
+var j = 0;
+var txt2 = 'TA'; /* my logo text */
+var speed2 = 500;
+
+function writeLogo() {
+  
+  if (j< txt2.length) {
+    document.getElementById("logot").innerHTML += txt2.charAt(j);
+    j++;
+    setTimeout(writeLogo, speed2);
+  }
+}
+
+var speed3 = 700;
+window.onload = function() {
+    setTimeout(writeLogo, speed3);
+    typeWriterRoles();
+}

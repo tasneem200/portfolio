@@ -1,14 +1,91 @@
+@font-face {
+    font-family: futura;
+    src: url(images/futur.ttf);
+}
+
+
 body { 
     background-color: #0C020B;
+    margin: 0; 
+    padding: 0;
 }
+
+.navbar-brand{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10%;
+}
+
+#logot{
+    position: absolute;
+    transform: translate(-1.5vw, 1vh);
+    font-family: cursive;
+    font-size: 2vw;
+    color: black;
+}
+
+.navbar {
+    background-color: #E4F5FF;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    width: 100%; 
+    top:0;
+    right:0;
+    z-index: 100;
+}
+
+
+.navbar .nav-link {
+    display: inline-block;
+    padding: 0.5em 1.5em;  /* Responsive padding */
+    font-size: 1em;  /* Responsive font size */
+    background-color: #000000; /* Background color for the button */
+    border-radius: 0.5em;  /* Rounded corners */
+    text-decoration: none;  /* Remove underline */
+    margin-right: 0.5em;  /* Space between buttons */
+
+    color: white !important; 
+    text-decoration: none !important;
+    font-family: tinos !important; 
+}
+
+
 
 h1 {
     color: #E4F5FF;
-    position: absolute;
-    top: 130px; 
-    left: 155px;
-    font-size: 40px;
-    white-space: nowrap;
+    font-family: tinos !important;
+    padding: 1rem; 
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+h2 {
+    color: #E4F5FF;
+    font-family: tinos !important;
+    padding: 1rem; 
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -3vh;
+    font-weight: 100;
+
+}
+
+.container {
+    margin-top: 3em; /* Responsive margin */
+    align-items: center;
+} 
+
+.card{
+    background-color: #E4F5FF;
+}
+
+.card-img-top{
+    object-fit: contain;
+    height: 20vh;
 }
 
 #des1 {
@@ -141,148 +218,7 @@ h1 {
     border-radius: 10px;
 }
 
-@media (min-width: 200px) and (max-width: 750px){
 
-    h1 {
-        color: #E4F5FF;
-        position: absolute;
-        top: 360px; 
-        left: 90px;
-        font-size: 30px;
-        white-space: nowrap;
-    }
-
-    #des1 {
-        color: #E4F5FF;
-        position: absolute;
-        top: 380px; 
-        left: 10px;
-        font-size: 15px;
-        white-space: nowrap;
-        font-weight: none;
-    }
-
-    #turk {
-        color: #E4F5FF;
-        position: absolute;
-        top: 410px; 
-        left: 10px;
-        font-size: 18px;
-        white-space: nowrap;
-        font-weight: none;
-    }
-
-    #sul {
-        position: absolute;
-        top: 450px; 
-        left: 10px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-
-    #mus {
-        position: absolute;
-        top: 450px; 
-        left: 200px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-
-    #ceil {
-        position: absolute;
-        top: 450px; 
-        left: 400px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-
-    #hagia {
-        position: absolute;
-        top: 450px; 
-        left: 600px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-
-    #mus2 {
-        position: absolute;
-        top: 570px; 
-        left: 10px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-
-    #mas2 {
-        position: absolute;
-        top: 570px; 
-        left: 200px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-
-    #mas3 {
-        position: absolute;
-        top: 570px; 
-        left: 400px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-    
-    #mas4 {
-        position: absolute;
-        top: 570px; 
-        left: 600px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-
-    #house {
-        position: absolute;
-        top: 690px; 
-        left: 10px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-    
-    #boat {
-        position: absolute;
-        top: 690px; 
-        left: 200px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-    
-    #alley {
-        position: absolute;
-        top: 690px; 
-        left: 400px;
-        display: block;
-        height:100px;
-        width: 170px;
-        border-radius: 10px;
-    }
-
-}
 
 @keyframes spin {
     from { transform: rotate(0deg); }
