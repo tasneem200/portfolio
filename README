@@ -1,4 +1,10 @@
-Interactive features:
-1. The first interactive feature I have implemented using JavaScript is present on the "Photography" page. When any photo on that page is clicked on, the photo will become enlarged. I implemented this feature so that only one photo can be enlarged at a time, thus when a different photo is clicked on, if any photos are currently enlarged, they will be minimized before the photo clicked on is enlarged. 
 
-2. The second interactive feature I have implemented can be seen across all site pages. When the "TA" in the top left corner is clicked on, the disco ball logo in the top left will spin clockwise for 5 seconds, or until the "TA" is pressed again. 
+
+Development by Tasneem Abdalla
+
+Welcome!
+Thanks for stopping by and visiting my portfolio site I created to showcase some of the work and projects 
+I'm grateful to have had the opportunity to work on. Reach me at abdalla @u.northwestern.edu with any inquiries! 
+
+
+

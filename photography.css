@@ -10,46 +10,6 @@ body {
     padding: 0;
 }
 
-.navbar-brand{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 10%;
-}
-
-#logot{
-    position: absolute;
-    transform: translate(-1.5vw, 1vh);
-    font-family: cursive;
-    font-size: 2vw;
-    color: black;
-}
-
-.navbar {
-    background-color: #E4F5FF;
-    justify-content: center;
-    display: flex;
-    position: absolute;
-    width: 100%; 
-    top:0;
-    right:0;
-    z-index: 100;
-}
-
-
-.navbar .nav-link {
-    display: inline-block;
-    padding: 0.5em 1.5em;  /* Responsive padding */
-    font-size: 1em;  /* Responsive font size */
-    background-color: #000000; /* Background color for the button */
-    border-radius: 0.5em;  /* Rounded corners */
-    text-decoration: none;  /* Remove underline */
-    margin-right: 0.5em;  /* Space between buttons */
-
-    color: white !important; 
-    text-decoration: none !important;
-    font-family: tinos !important; 
-}
 
 
 
@@ -84,140 +44,26 @@ h2 {
 }
 
 .card-img-top{
-    object-fit: contain;
+    /* object-fit: contain; */
     height: 20vh;
 }
 
-#des1 {
-    color: #E4F5FF;
-    position: absolute;
-    top: 155px; 
-    left: 45px;
-    font-size: 15px;
-    white-space: nowrap;
-    font-weight: none;
+.glow {
+    box-shadow: 0 0 0.3em #E4F5FF;
 }
 
-#turk {
-    color: #E4F5FF;
-    position: absolute;
-    top: 200px; 
-    left: 45px;
-    font-size: 30px;
-    white-space: nowrap;
-    font-weight: none;
+/* animation for hovering over cards */
+@keyframes float {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(5deg); }
 }
 
-#sul {
-    position: absolute;
-    top: 300px; 
-    left: 45px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#mus {
-    position: absolute;
-    top: 300px; 
-    left: 345px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#ceil {
-    position: absolute;
-    top: 300px; 
-    left: 645px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#hagia {
-    position: absolute;
-    top: 300px; 
-    left: 945px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#mus2 {
-    position: absolute;
-    top: 525px; 
-    left: 45px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#mas2 {
-    position: absolute;
-    top: 525px; 
-    left: 345px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#mas3 {
-    position: absolute;
-    top: 525px; 
-    left: 645px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#mas4 {
-    position: absolute;
-    top: 525px; 
-    left: 945px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#house {
-    position: absolute;
-    top: 750px; 
-    left: 45px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#boat {
-    position: absolute;
-    top: 750px; 
-    left: 345px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
-#alley {
-    position: absolute;
-    top: 750px; 
-    left: 645px;
-    display: block;
-    height:200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
+.card:hover
+{
+    animation-duration: 1s;
+    animation-name: float;
+    transition:  ease-in-out 0s;
+} 
 
 
 @keyframes spin {

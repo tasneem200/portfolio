@@ -1,0 +1,45 @@
+body { 
+    background-color: #0C020B;
+}
+
+
+#gridd {
+    margin-top: 12em; /* Responsive margin */
+    align-items: center;
+} 
+
+#back {
+    background-color: black !important; /* Change this to your desired color */
+    color: #ffffff; /* Change this to the text color you want */
+}
+
+
+.figure-caption{
+    font-family: tinos;
+    color: #E4F5FF;
+    margin-top: -1rem;
+    font-weight: normal;
+}
+
+.head {
+    justify-content: center;
+}
+
+
+.col-sm {
+    align-items: left;
+}
+
+.header {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #E4F5FF;
+}
+
+#desc {
+    color: #E4F5FF;
+    font-size: 1rem;
+
+}
+

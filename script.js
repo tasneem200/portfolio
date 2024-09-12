@@ -86,3 +86,4 @@ window.onload = function() {
     setTimeout(writeLogo, speed3);
     typeWriterRoles();
 }
+

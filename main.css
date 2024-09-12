@@ -7,6 +7,19 @@
     font-family: glam;
     src: url(images/GlamourBouquet-GOjMm.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
+
+@font-face {
+    font-family: arabic;
+    src: url(images/JannaLTBold.ttf);
+}
+
+
+@font-face {
+    font-family: ger;
+    src: url(images/gerald.ttf);
+}
+
 
 body { 
     background-color: #0C020B;
@@ -16,27 +29,37 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 10%;
+}
+
+#logo {
+    width: max(7vh, 50px) !important;
+    height: max(7vh, 50px) !important;
+
 }
 
 #logot{
     position: absolute;
-    transform: translate(-1.5vw, 1vh);
-    font-family: glam;
-    font-size: 2rem;
+    /* left: 3vh;
+    top: 2vh; */
+    transform: translate(-1vw, 1vh);
+    font-family: ger;
+    font-size: max(4vh, 30px);
     color: black;
+    font-weight: bold;
+    min-height: 10px; 
 }
 
 .navbar {
     background-color: #E4F5FF;
     justify-content: center;
     display: flex;
-    position: absolute;
+    position: fixed;
     width: 100%; 
     top:0;
     right:0;
     left: 0;
     z-index: 100;
+    min-height: 8vh;
 }
 
 
@@ -54,11 +77,9 @@ body {
 }
 
 
-/* place name and roles absolutely on center of screen, with the roles directly under */ 
-
 .myname {
     font-family: tinos;
-    font-size: 8rem; 
+    font-size: 10vw; 
     color: #E4F5FF;
     white-space: nowrap;
     position: absolute;
@@ -70,12 +91,22 @@ body {
 
 .roles {
     font-family: tinos;
-    font-size: 3rem; 
+    font-size: 3vw; 
     color: #E4F5FF;
-    margin-top: 12vh;
+    margin-top: 7vw;
     white-space: nowrap;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 5s linear;
+    animation-iteration-count: infinite;
 }
